@@ -16,7 +16,7 @@
 	text-decoration: none;
 	padding-left:65px;
 	position: relative;
-	left:280px;
+	left: 280px;
 }
 
 .box a:hover{
@@ -26,7 +26,7 @@
 	text-decoration: none;
 	padding-left:65px;
 	position: relative;
-	left:280px;
+	left: 280px;
 }
 
 /*banner*/
@@ -36,6 +36,7 @@
 	height: 500px;
 	position: relative;
 	top:30px;
+	-webkit-filter: grayscale(70%);
 }
 
 .box-banner .text{
@@ -123,17 +124,18 @@
 
 .box-textura-dos button{
 	color:#fff;
-	font-size: 11px;
+	font-size: 13px;
 	border:none;
 	padding: 9px 6px;
 	background-color: #7BAD03;
 	position: relative;
 	top:10px;
+	opacity: 0.6;
 }
 
 .box-textura-dos button:hover{
 	color:#fff;
-	font-size: 11px;
+	font-size: 13px;
 	padding: 9px 6px;
 	background-color: #909090;
 	position: relative;
@@ -166,11 +168,13 @@
 	position: relative;
 	top:300px;
 	bottom: 50px;	
+	-webkit-filter: grayscale(70%);
 }
 
 .box-fotos-dos img:hover{
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+	-webkit-filter: grayscale(0%);
 }
 
 .box-fotos-dos .texto-fotos{
@@ -223,10 +227,10 @@
 
 /*contacto*/
 .box-contacto{
-	margin-top: 200px;
 	background-image: url(../img/shoes_!.jpg);
 	background-position: -30px 789px;
 	height: 400px;
+	-webkit-filter: grayscale(70%);
 }
 
 .box-contacto .fa-comments-o{

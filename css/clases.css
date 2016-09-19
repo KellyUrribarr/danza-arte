@@ -16,7 +16,7 @@
 	text-decoration: none;
 	padding-left:65px;
 	position: relative;
-	left:280px;
+	left: 280px;
 }
 
 .box a:hover{
@@ -26,7 +26,7 @@
 	text-decoration: none;
 	padding-left:65px;
 	position: relative;
-	left:280px;
+	left: 280px;
 }
 
 /*banner*/
@@ -36,34 +36,35 @@
 	height: 500px;
 	position: relative;
 	top:30px;
+	-webkit-filter: grayscale(70%);
 }
 
 .box-banner .text{
 	color:#fff;
 	font-size: 28px;
 	position: absolute;
-	top: 86px;
-	left: 147px;
+	top: 141px;
+	left: -48px;
 }
 
 .box-banner .text-uno{
-	width: 300px;
+	width: 500px;
 	color:#fff;
 	font-size: 14px;
 	position: absolute;
-	top: 126px;
-	left: 135px;
-	text-align: center;
+	top:197px;
+	left: -162px;
+	text-align: justify;
 }
 
 .box-banner .rect{
-	width: 400px;
-	height: 200px;
+	width: 600px;
+	height: 270px;
 	background-color: #000;
 	opacity: 0.4;
 	position: relative;
-	top:74px;
-	left: 483px;
+	top:119px;
+	left: 389px;
 }
 
 .box-banner button{
@@ -87,54 +88,53 @@
 
 
 /*cuerpo*/
-.box-textura-dos{
-	width: 100%;
-	height: 700px;
-	position: relative;
-}
-
-.box-textura-dos .fa-trophy{
-	font-size: 120px;
-	color:#EAE9E9;
-	position: relative;
-	left: 530px;
-	top:120px;
+.box-textura-dos .col-md-12{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-top: 60px;
+	color:#909090;
+	font-family: 'Tinos';
 }
 
 .box-textura-dos h4{
 	color:#7BAD03;
+	text-align: center;
+	padding-bottom: 15px;
 }
 
-.box-textura-dos .text-uno, .text-dos, .text-tres{
+.box-textura-dos .text-uno, .text-dos{
 	color:#A9A9A9;
 	font-family: 'Tinos', serif;
 	font-size: 14px;
-	margin-top: 200px;
-	padding: 15px;
 	text-align: justify;
 }
 
-
 .box-textura-dos img{
 	width: 100px;
-	position: absolute;
+	background-color: #000;
 	top:220px;
 	left: 630px;
 }
 
 .box-textura-dos button{
+	width: 100%;
 	color:#fff;
-	font-size: 11px;
+	font-size: 16px;
 	border:none;
 	padding: 9px 6px;
 	background-color: #7BAD03;
+	opacity: 0.5;
 	position: relative;
 	top:10px;
 }
 
 .box-textura-dos button:hover{
+	width: 100%;
 	color:#fff;
-	font-size: 11px;
+	font-size: 16px;
+	border:none;
 	padding: 9px 6px;
 	background-color: #909090;
 	position: relative;
@@ -142,101 +142,62 @@
 }
 
 /*dos fotos*/
+.box-fotos-galeria .col-md-12{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-top: 60px;
+	color:#909090;
+	font-family: 'Tinos';
 
-.box-fotos-dos .fa-clock-o{
-	font-size: 120px;
-	color:#EAE9E9;
-	position: absolute;
-	left: 530px;
-	top:10px;
-	z-index: 8;
 }
 
-.box-fotos-dos{
-	width: 100%;
-	height: 650px;
-	margin-top: 50px;
-	position: relative;
-}
-
-.box-fotos-dos img{
-	width: 50%;
-	height: 300px;
+.box-fotos-galeria img{
+	width: 272px;
+	height: 250px;
 	padding:0px;
-	border: 15px solid #fff;
-	position: relative;
-	top:300px;
-	bottom: 50px;	
+	margin-left: -16px;
+	-webkit-filter: grayscale(70%);
+	
 }
 
-.box-fotos-dos img:hover{
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+.box-fotos-galeria h6{
+	text-align: center;
+	color:#7BAD03;
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+.box-fotos-galeria h5{
+	text-align: center;
+	font-size: 14px;
+	color:#909090;
+	padding-bottom: 20px;
+}
+
+
+.box-fotos-galeria img:hover{
+	-webkit-filter: grayscale(0%);
 }
 
 .box-fotos-dos .texto-fotos{
 	color:#909090;
 	font-size: 30px;
 	font-family: 'Tinos';
-
 	position: absolute;
 	top:200px;
 	left: 307px;
 }
 
-.box-fotos-dos .cancha-tenis{
-	color:#909090;
-	font-family: "Tinos";
-	position: absolute;
-	top:610px;
-	left: 220px;
-	z-index: 8;
-}
-
-.box-fotos-dos .cancha-tenis-cisterna{
-	color:#909090;
-	font-family: "tinos";
-	position: absolute;
-	top:610px;
-	left: 826px;
-	z-index: 8;
-}
-
-/*pie*/
-.box-pie{
-	background-color: #fff;
-	padding-top: 0px;
-	padding-bottom:200px;
-	margin-top: 100px;
-	height: 500px;
-}
-
-.box-pie iframe{
-	width: 100%;
-	position: relative;
-}
-
-.box-pie p{
-	font-family: "Tinos";
-	padding-left:14px;
-	margin:4px 0 0px;
-}
 
 /*contacto*/
 .box-contacto{
-	margin-top: 200px;
 	background-image: url(../img/shoes_!.jpg);
 	background-position: -30px 789px;
 	height: 400px;
-}
-
-.box-contacto .fa-comments-o{
-	font-size: 120px;
-	color:#EAE9E9;
-	position: absolute;
-	top:-215px;
-	left: 490px;
-	z-index: 8;
+	margin-top: 200px;
+	-webkit-filter: grayscale(70%);
 }
 
 .box-contacto h3{
